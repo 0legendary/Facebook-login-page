@@ -8,12 +8,12 @@ body{
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .logo{
-    width: 50%;
+    width: 70%;
     padding-top: 32px;
     float: left;
 }
 .login{
-    width: 50%;
+    width: 30%;
     float: left;
 }
 .logo-text{
@@ -52,3 +52,80 @@ margin-left: 170px;
 
     background-color: darkblue;
 }
+.left-section{
+    width: 60%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+.right-section{
+    width: 40%;
+    float: left;
+    height: 10px;
+}
+.main-body{
+    background: linear-gradient(white, #d3d8e8);
+    width: 100%;
+    height: 800px;
+}
+.image{
+    width: 581px;
+}
+.para{
+    font-weight: bold;
+    font-size: 21px;
+}
+.entry{
+    font-size: 35px;
+font-weight: bold;
+text-decoration: none;
+font-family: Helvetica Neue,   
+}
+.entry-1{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.entry-2{
+    height: 28px;
+    width: 275px;
+    padding-inline:10px;
+    border-radius: 5px;
+    
+    
+}
+.entry-3{
+    height: 36px;
+    width: 582px;
+    padding-inline: 10px;
+    border-radius: 5px;  
+}
+.entry-4{
+    padding-bottom: 5px;
+}
+.entry-5{
+padding-top: 9px;
+padding-bottom: 20px;
+font-size: 25px;
+text-decoration: none;
+}
+.select-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .select-container select {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  .entry-6{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .discription{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    color: #9cb4d8;
+  }
