@@ -87,15 +87,14 @@ font-family: Helvetica Neue,
 }
 .entry-2{
     height: 28px;
-    width: 275px;
+    width: 328px;
     padding-inline:10px;
     border-radius: 5px;
-    
-    
 }
+
 .entry-3{
     height: 36px;
-    width: 582px;
+    width: 328px;
     padding-inline: 10px;
     border-radius: 5px;  
 }
@@ -109,7 +108,7 @@ font-size: 25px;
 text-decoration: none;
 }
 .select-container {
-    display: flex;
+    
     flex-wrap: wrap;
     gap: 8px;
   }
@@ -124,8 +123,23 @@ text-decoration: none;
     gap: 8px;
   }
   .discription{
-    color: #fff;
+   
     font-size: 13px;
-    text-decoration: none;
-    color: #9cb4d8;
+    text-decoration: none;  
+  }
+  .sign-up-button{
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 32px;
+  text-shadow: none;
+  width: 185px; 
   }
